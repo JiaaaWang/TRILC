@@ -1,4 +1,4 @@
-% this function is the implementation of the paper [5], the parameters are tuned to achieve the best performance
+% this function is the implementation of the cited paper [5]
 function [U_DDOILC, Xi_DDOILC] = DDOILC(j, E_DDOILC, U_DDOILC, Y_DDOILC, U_DDOILC_all, Y_DDOILC_all, Xi_DDOILC_ini, Xi_DDOILC, p, m, N)
 rho = 0.12; 
 lambda = 0.06;  
