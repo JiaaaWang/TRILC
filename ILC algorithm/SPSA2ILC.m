@@ -1,4 +1,4 @@
-% this function is the implementation of the paper [11], the parameters are tuned to achieve the best performance
+% this function is the implementation of the cited paper [11]
 function [U, E_SPSA_set_norm] = SPSA2ILC(j, R, U_ini, m, N)
 aj = 1.2 / (j^0.2);
 cj = 0.5 / (j^0.25);
