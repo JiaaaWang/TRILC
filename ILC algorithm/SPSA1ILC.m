@@ -1,4 +1,4 @@
-% this function is the implementation of the paper [18]
+% this function is the implementation of the cited paper [18]
 function [U, E_SPSA_set_norm] = SPSA1ILC(R, U_ini, m, N)
 aj = 1;
 cj = 1;
