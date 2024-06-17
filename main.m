@@ -2,7 +2,7 @@ clear;
 clc;
 curr_path = pwd;
 addpath(genpath(curr_path));
-%% Experiment parameter %%
+%% Experiment parameter
 parameters;
 %% TRILC (without trial reduction)
 run_TRILC;
